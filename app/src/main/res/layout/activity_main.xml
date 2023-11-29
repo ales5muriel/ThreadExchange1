@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+        <!-- Texto de bienvenida -->
+        <TextView
+            android:id="@+id/bienvenida"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:text="@string/bienvenida"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            />
+
+        <!-- Imagen -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            android:src="@drawable/logo"
+            />
+
+        <!-- Cuadro de texto de usuario -->
+        <EditText
+            android:id="@+id/eTnombre"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:hint="@string/nombre"/>
+
+        <!-- Botón para navegar a la actividad de comenzar -->
+        <Button
+            android:id="@+id/comenzar"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:onClick="goToCreditActivity"
+            android:text="@string/creditos" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+

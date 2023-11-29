@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ThreadExchange</string>
+    <string name="nombre">¿Cómo te llamas?</string>
+    <string name="bienvenida">¡Bienvenido a ThreadExchange!</string>
+    <string name="creditos">Iniciar</string>
+    <string name="info">%s, estás usando la versión 1 de ThreadExchange</string>
+    <string name="contenido">En esta version se ha añadido un boton de contacto con el desarrollador para los problemas encontrados"</string>
+</resources>
